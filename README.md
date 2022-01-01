@@ -21,6 +21,10 @@ So that I can understand which Arsenal FC players have been the most successful 
 I want to be able to view a break down of Arsenal FC player goalscoring statistics, by age on the date that each goal was scored.
 
 As a user
+So that I can understand which Arsenal FC players have been the most successful goalscorers at various points during Premier League Era matches
+I want to be able to view a break down of Arsenal FC player goalscoring statistics, by breaking down first half and second half goalscoring contributions.
+
+As a user
 So that I can understand more about Arsenal FC in the Premier League Era from August 1992 to present
 I want to be able to view which opposing teams Arsenal have been both most and least successful against.
 
