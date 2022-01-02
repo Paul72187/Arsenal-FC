@@ -29,8 +29,8 @@
         <a href="index.html">
         <h1>Arsenal Premier League Opponents 1992-2022</h1>
         <h2>All Arsenal Premier League Opponent Performance Data</h2>
-        <h4>Rank Opposing Team   No. Of Season   Games Played  Total Wins  Total Draws Total Defeats Total Goals For Total Goals Against Total Goal Difference Total Points                 Continent         Total Premier League Goals Scored</h4>
-        <h6>1.   </h6>
+        <h4>Rank Opposing Team   Seasons   Played  Win  Draw Lose Goal+ Goal- GoalDiff Points TopScorer     TotalGoals</h4>
+        <h6>1.   Aston Villa     27        53      28   14   11   91    48    43       98     Thierry Henry 12</h6>
         <h6>2.   </h6>
         <h6>3.   </h6>
         <h6>4.   </h6>
