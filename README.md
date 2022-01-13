@@ -9,6 +9,10 @@ So that I can assess player performance in individual seasons whilst representin
 I want to be able to view goalscoring data for each player in each season of the Premier League Era from August 1992 to present.
 
 As a user
+So that I can assess player performance in individual matches during the Premier League Era
+I want to be able to view goalscoring data for each player displaying those who have scored braces (2 goals), hattricks (3 goals) and hauls (4 goals) in one match for Arsenal.
+
+As a user
 So that I can assess player performance by country at Arsenal FC
 I want to be able to view a break down of player goalscoring statistics by the country and continent that each Arsenal player represents.
 
