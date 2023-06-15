@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Highest Scorer - Arsenal In The Premier League</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/navBar.css" />
+    <link rel="stylesheet" href="../styles/results.css" />
+</head>
+
+<body>
+    <nav>
+        <!--BBC Logo to the far left of the navbar-->
+        <a href="javascript:void(0);" id="ArsenalBadge">
+            <img src="../images/ArsenalBadge.png" alt="ArsenalBadge" />
+        </a>
+        <!--User Sign In-->
+        <a href="javascript:void(0);" id="nav-sign-in">
+            <i class="fas fa-user-circle"></i>
+            <div id="nav-sign-in-text">Sign In</div>
+            <div class="nav-line nav-blue"></div>
+        </a>
+        <!--Bell Icon-->
+        <a href="javascript:void(0);" id="nav-bell-icon">
+            <i class="fas fa-bell"></i>
+            <div class="nav-line nav-dark-blue"></div>
+        </a>
+        <!--Main Nav Here. On full width - starts with Home & ends with CBeebies-->
+        <section id="main-nav">
+            <a href="index.html" class="main-nav-entry" id="main-nav-home">
+                <div>Home</div>
+                <div class="nav-line nav-blue"></div>
+            </a>
+            <a href="results.html" class="main-nav-entry" id="main-nav-news">
+                <div>Results</div>
+                <div class="nav-line nav-red"></div>
+            </a>
+            <a href="matchscorers.html" class="main-nav-entry" id="main-nav-sport">
+                <div>Match Scorers</div>
+                <div class="nav-line nav-yellow"></div>
+            </a>
+            <a href="topscorers.html" class="main-nav-entry" id="main-nav-weather">
+                <div>Top Scorers</div>
+                <div class="nav-line nav-light-blue"></div>
+            </a>
+            <a href="countryscorers.html" class="main-nav-entry" id="main-nav-iplayer">
+                <div>Country Scorers</div>
+                <div class="nav-line nav-pink"></div>
+            </a>
+            <a href="scorelines.html" class="main-nav-entry" id="main-nav-sounds">
+                <div>Scorelines</div>
+                <div class="nav-line nav-orange"></div>
+            </a>
+            <a href="opponents.html" class="main-nav-entry" id="main-nav-cbbc">
+                <div>Opponents</div>
+                <div class="nav-line nav-green"></div>
+            </a>
+            <a href="managers.html" class="main-nav-entry" id="main-nav-cbeebies">
+                <div>Managers</div>
+                <div class="nav-line nav-yellow"></div>
+            </a>
+            <a href="javascript:void(0);" class="main-nav-entry" id="main-nav-more">
+                <div>More</div>
+                <i class="fas fa-caret-down"></i>
+                <div class="nav-line nav-black"></div>
+            </a>
+        </section>
+        <!--Search-->
+        <a href="javascript:void(0);" id="nav-search">
+            <i class="fas fa-search"></i>
+            <div id="nav-search-text">Search</div>
+            <div class="nav-line nav-black"></div>
+        </a>
+    </nav>
+    <!--Extra drop down that opens up when user clicks on the more tab-->
+    <section id="more-nav">
+        <!--X that user clicks on to close the menu-->
+        <div id="more-nav-content">
+            <div id="cross-icon"><i class="fas fa-times"></i></div>
+            <a href="javascript:void(0);">Results</a>
+            <a href="javascript:void(0);">Match Scorers</a>
+            <a href="javascript:void(0);">Top Scorers</a>
+            <a href="javascript:void(0);">Country Scorers</a>
+            <a href="javascript:void(0);">Scorelines</a>
+            <a href="javascript:void(0);">Opponents</a>
+            <a href="javascript:void(0);">Managers</a>
+            <a href="premierleaguestats.html">Premier League Stats</a>
+            <a href="javascript:void(0);">Bitesize</a>
+            <a href="javascript:void(0);">Arts</a>
+            <a href="javascript:void(0);">Taster</a>
+            <a href="javascript:void(0);">Local</a>
+            <a href="javascript:void(0);">Own Goals</a>
+        </div>
+    </section>
+    <!--END OF NAVBAR. START OF MAIN PAGE-->
+    <div id="ArsenalTitle">
+        <div class="center-content title-text">
+            Arsenal's leading goalscorer is Thierry Henry
+            <img src="ThierryHenry.jpg" />
+            <br>
+            <p>
+                <br> Since the Premier League was formed in August 1992, Arsenal's historical goalscoring record has been broken twice. Firstly, by Ian Wright in 1997 and then Thierry Henry in 2005.
+                <br>
+                <br> With 175 Premier League goals, Thierry Henry remains Arsenal's leading goalscorer, over a decade since his last competitive match for the club.
+                <br>
+                <br> Ian Wright is the only other Arsenal player to be a centurion in terms of Premier League goals, clocking up 104 goals between 1992 and 1998.
+                <br>
+                <br> For seven consecutive seasons between 1999 and 2006, Henry was the highest goalscorer for Arsenal in the Premier League. During this spell, he also won the Premier League Golden Boot (for leading league scorer) on four occasions in
+                the 2001/2002, 2003/2004, 2004/2005 and 2005/2006 seasons.
+                <br>
+                <br> Henry scored 30 Premier League goals in one season (2003/2004), when Arsenal won the Premier League without suffering a defeat all season. The feat of scoring 30 league goals in a Premier League season has since been matched by Robin
+                Van Persie (2011/2012).
+                <br>
+                <br> It is unlikely Henry's record will be broken any time soon, with Bukayo Saka (31 Premier League goals so far) being Arsenal's leading active Premier League goalscorer.
+                <br>
+                <br>
+            </p>
+
+            <table border="1" class="dataframe">
+                <caption style="text-align:center">Arsenal's Top 10 Premier League Goalscorers</caption>
+                <thead>
+                    <tr style="text-align: center;">
+                        <th>Goal Scoring Rank</th>
+                        <th>Player ID</th>
+                        <th>Player</th>
+                        <th>Country</th>
+                        <th>Continent</th>
+                        <th>Goals</th>
+                        <th>Penalties</th>
+                        <th>Home Goals</th>
+                        <th>Away Goals</th>
+                        <th>Braces</th>
+                        <th>Hattricks</th>
+                        <th>Hauls</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr style="text-align: center;">
+                        <td>1</td>
+                        <td>37</td>
+                        <td>Thierry Henry</td>
+                        <td>France</td>
+                        <td>Europe</td>
+                        <td>175</td>
+                        <td>23</td>
+                        <td>120</td>
+                        <td>55</td>
+                        <td>34</td>
+                        <td>7</td>
+                        <td>1</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>2</td>
+                        <td>4</td>
+                        <td>Ian Wright</td>
+                        <td>England</td>
+                        <td>Europe</td>
+                        <td>104</td>
+                        <td>16</td>
+                        <td>57</td>
+                        <td>47</td>
+                        <td>9</td>
+                        <td>5</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>3</td>
+                        <td>56</td>
+                        <td>Robin Van Persie</td>
+                        <td>Netherlands</td>
+                        <td>Europe</td>
+                        <td>96</td>
+                        <td>9</td>
+                        <td>51</td>
+                        <td>45</td>
+                        <td>16</td>
+                        <td>3</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>4</td>
+                        <td>87</td>
+                        <td>Dennis Bergkamp</td>
+                        <td>Netherlands</td>
+                        <td>Europe</td>
+                        <td>87</td>
+                        <td>5</td>
+                        <td>46</td>
+                        <td>41</td>
+                        <td>11</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>5</td>
+                        <td>73</td>
+                        <td>Olivier Giroud</td>
+                        <td>France</td>
+                        <td>Europe</td>
+                        <td>73</td>
+                        <td>2</td>
+                        <td>40</td>
+                        <td>33</td>
+                        <td>11</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>6</td>
+                        <td>113</td>
+                        <td>Pierre-Emerick Aubameyang</td>
+                        <td>Gabon</td>
+                        <td>Africa</td>
+                        <td>68</td>
+                        <td>9</td>
+                        <td>43</td>
+                        <td>25</td>
+                        <td>13</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>7</td>
+                        <td>68</td>
+                        <td>Theo Walcott</td>
+                        <td>England</td>
+                        <td>Europe</td>
+                        <td>65</td>
+                        <td>0</td>
+                        <td>37</td>
+                        <td>28</td>
+                        <td>5</td>
+                        <td>3</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>8</td>
+                        <td>44</td>
+                        <td>Robert Pires</td>
+                        <td>France</td>
+                        <td>Europe</td>
+                        <td>62</td>
+                        <td>4</td>
+                        <td>37</td>
+                        <td>25</td>
+                        <td>3</td>
+                        <td>1</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>9</td>
+                        <td>100</td>
+                        <td>Alexis Sanchez</td>
+                        <td>Chile</td>
+                        <td>South America</td>
+                        <td>60</td>
+                        <td>3</td>
+                        <td>27</td>
+                        <td>33</td>
+                        <td>12</td>
+                        <td>2</td>
+                        <td>0</td>
+                    </tr>
+                    <tr style="text-align: center;">
+                        <td>10</td>
+                        <td>111</td>
+                        <td>Alexandre Lacazette</td>
+                        <td>France</td>
+                        <td>Europe</td>
+                        <td>54</td>
+                        <td>7</td>
+                        <td>34</td>
+                        <td>20</td>
+                        <td>6</td>
+                        <td>0</td>
+                        <td>0</td>
+                    </tr>
+
+        </div>
+    </div>
+</body>
+
+</html>

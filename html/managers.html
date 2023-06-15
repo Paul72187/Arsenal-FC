@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Managers - Arsenal In The Premier League</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/navBar.css" />
+    <link rel="stylesheet" href="../styles/results.css" />
+</head>
+
+<body>
+    <nav>
+        <!--BBC Logo to the far left of the navbar-->
+        <a href="javascript:void(0);" id="ArsenalBadge">
+            <img src="../images/ArsenalBadge.png" alt="ArsenalBadge" />
+        </a>
+        <!--User Sign In-->
+        <a href="javascript:void(0);" id="nav-sign-in">
+            <i class="fas fa-user-circle"></i>
+            <div id="nav-sign-in-text">Sign In</div>
+            <div class="nav-line nav-blue"></div>
+        </a>
+        <!--Bell Icon-->
+        <a href="javascript:void(0);" id="nav-bell-icon">
+            <i class="fas fa-bell"></i>
+            <div class="nav-line nav-dark-blue"></div>
+        </a>
+        <!--Main Nav Here. On full width - starts with Home & ends with CBeebies-->
+        <section id="main-nav">
+            <a href="index.html" class="main-nav-entry" id="main-nav-home">
+                <div>Home</div>
+                <div class="nav-line nav-blue"></div>
+            </a>
+            <a href="results.html" class="main-nav-entry" id="main-nav-news">
+                <div>Results</div>
+                <div class="nav-line nav-red"></div>
+            </a>
+            <a href="matchscorers.html" class="main-nav-entry" id="main-nav-sport">
+                <div>Match Scorers</div>
+                <div class="nav-line nav-yellow"></div>
+            </a>
+            <a href="topscorers.html" class="main-nav-entry" id="main-nav-weather">
+                <div>Top Scorers</div>
+                <div class="nav-line nav-light-blue"></div>
+            </a>
+            <a href="countryscorers.html" class="main-nav-entry" id="main-nav-iplayer">
+                <div>Country Scorers</div>
+                <div class="nav-line nav-pink"></div>
+            </a>
+            <a href="scorelines.html" class="main-nav-entry" id="main-nav-sounds">
+                <div>Scorelines</div>
+                <div class="nav-line nav-orange"></div>
+            </a>
+            <a href="opponents.html" class="main-nav-entry" id="main-nav-cbbc">
+                <div>Opponents</div>
+                <div class="nav-line nav-green"></div>
+            </a>
+            <a href="managers.html" class="main-nav-entry" id="main-nav-cbeebies">
+                <div>Managers</div>
+                <div class="nav-line nav-yellow"></div>
+            </a>
+            <a href="javascript:void(0);" class="main-nav-entry" id="main-nav-more">
+                <div>More</div>
+                <i class="fas fa-caret-down"></i>
+                <div class="nav-line nav-black"></div>
+            </a>
+        </section>
+        <!--Search-->
+        <a href="javascript:void(0);" id="nav-search">
+            <i class="fas fa-search"></i>
+            <div id="nav-search-text">Search</div>
+            <div class="nav-line nav-black"></div>
+        </a>
+    </nav>
+    <!--Extra drop down that opens up when user clicks on the more tab-->
+    <section id="more-nav">
+        <!--X that user clicks on to close the menu-->
+        <div id="more-nav-content">
+            <div id="cross-icon"><i class="fas fa-times"></i></div>
+            <a href="javascript:void(0);">Results</a>
+            <a href="javascript:void(0);">Match Scorers</a>
+            <a href="javascript:void(0);">Top Scorers</a>
+            <a href="javascript:void(0);">Country Scorers</a>
+            <a href="javascript:void(0);">Scorelines</a>
+            <a href="javascript:void(0);">Opponents</a>
+            <a href="javascript:void(0);">Managers</a>
+            <a href="premierleaguestats.html">Premier League Stats</a>
+            <a href="javascript:void(0);">Bitesize</a>
+            <a href="javascript:void(0);">Arts</a>
+            <a href="javascript:void(0);">Taster</a>
+            <a href="javascript:void(0);">Local</a>
+            <a href="javascript:void(0);">Own Goals</a>
+        </div>
+    </section>
+    <!--END OF NAVBAR. START OF MAIN PAGE-->
+    <div id="ResultsTitle">
+        <div class="center-content title-text">
+            Arsenal Premier League Managers 1992-2023
+        </div>
+    </div>
+
+    <table border="1" class="dataframe">
+        <thead>
+            <tr style="text-align: left">
+                <th>Manager Rank</th>
+                <th>Manager ID</th>
+                <th>Managers</th>
+                <th>Country</th>
+                <th>Total Played</th>
+                <th>Total Win</th>
+                <th>Total Draw</th>
+                <th>Total Lose</th>
+                <th>Total Points</th>
+                <th>Total Win%</th>
+                <th>Total Draw%</th>
+                <th>Total Lose%</th>
+                <th>Total Win Rank</th>
+                <th>Total Draw Rank</th>
+                <th>Total Lose Rank</th>
+                <th>Home Played</th>
+                <th>Home Win</th>
+                <th>Home Draw</th>
+                <th>Home Lose</th>
+                <th>Home Points</th>
+                <th>Home Win%</th>
+                <th>Home Draw%</th>
+                <th>Home Lose%</th>
+                <th>Home Win Rank</th>
+                <th>Home Draw Rank</th>
+                <th>Home Lose Rank</th>
+                <th>Away Played</th>
+                <th>Away Win</th>
+                <th>Away Draw</th>
+                <th>Away Lose</th>
+                <th>Away Points</th>
+                <th>Away Win%</th>
+                <th>Away Draw%</th>
+                <th>Away Lose%</th>
+                <th>Away Win Rank</th>
+                <th>Away Draw Rank</th>
+                <th>Away Lose Rank</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>4</td>
+                <td>Pat Rice</td>
+                <td>Northern Ireland</td>
+                <td>3</td>
+                <td>3</td>
+                <td>0</td>
+                <td>0</td>
+                <td>9</td>
+                <td>100.00%</td>
+                <td>0.00%</td>
+                <td>0.00%</td>
+                <td>1</td>
+                <td>8</td>
+                <td>8</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>6</td>
+                <td>100.00%</td>
+                <td>0.00%</td>
+                <td>0.00%</td>
+                <td>1</td>
+                <td>7</td>
+                <td>8</td>
+                <td>1</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>3</td>
+                <td>100.00%</td>
+                <td>0.00%</td>
+                <td>0.00%</td>
+                <td>1</td>
+                <td>8</td>
+                <td>7</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>5</td>
+                <td>Arsene Wenger</td>
+                <td>France</td>
+                <td>828</td>
+                <td>476</td>
+                <td>199</td>
+                <td>153</td>
+                <td>1627</td>
+                <td>57.49%</td>
+                <td>24.03%</td>
+                <td>18.48%</td>
+                <td>2</td>
+                <td>5</td>
+                <td>7</td>
+                <td>414</td>
+                <td>286</td>
+                <td>85</td>
+                <td>43</td>
+                <td>943</td>
+                <td>69.08%</td>
+                <td>20.53%</td>
+                <td>10.39%</td>
+                <td>2</td>
+                <td>5</td>
+                <td>6</td>
+                <td>414</td>
+                <td>190</td>
+                <td>114</td>
+                <td>110</td>
+                <td>684</td>
+                <td>45.89%</td>
+                <td>27.54%</td>
+                <td>26.57%</td>
+                <td>3</td>
+                <td>3</td>
+                <td>6</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>8</td>
+                <td>Mikel Arteta</td>
+                <td>Spain</td>
+                <td>134</td>
+                <td>75</td>
+                <td>22</td>
+                <td>37</td>
+                <td>247</td>
+                <td>55.97%</td>
+                <td>16.42%</td>
+                <td>27.61%</td>
+                <td>3</td>
+                <td>7</td>
+                <td>4</td>
+                <td>67</td>
+                <td>42</td>
+                <td>11</td>
+                <td>14</td>
+                <td>137</td>
+                <td>62.69%</td>
+                <td>16.42%</td>
+                <td>20.90%</td>
+                <td>4</td>
+                <td>6</td>
+                <td>4</td>
+                <td>67</td>
+                <td>33</td>
+                <td>11</td>
+                <td>23</td>
+                <td>110</td>
+                <td>49.25%</td>
+                <td>16.42%</td>
+                <td>34.33%</td>
+                <td>2</td>
+                <td>6</td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>6</td>
+                <td>Unai Emery</td>
+                <td>Spain</td>
+                <td>51</td>
+                <td>25</td>
+                <td>13</td>
+                <td>13</td>
+                <td>88</td>
+                <td>49.02%</td>
+                <td>25.49%</td>
+                <td>25.49%</td>
+                <td>4</td>
+                <td>4</td>
+                <td>5</td>
+                <td>26</td>
+                <td>17</td>
+                <td>7</td>
+                <td>2</td>
+                <td>58</td>
+                <td>65.38%</td>
+                <td>26.92%</td>
+                <td>7.69%</td>
+                <td>3</td>
+                <td>4</td>
+                <td>7</td>
+                <td>25</td>
+                <td>8</td>
+                <td>6</td>
+                <td>11</td>
+                <td>30</td>
+                <td>32.00%</td>
+                <td>24.00%</td>
+                <td>44.00%</td>
+                <td>7</td>
+                <td>5</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>3</td>
+                <td>Bruce Rioch</td>
+                <td>Scotland</td>
+                <td>38</td>
+                <td>17</td>
+                <td>12</td>
+                <td>9</td>
+                <td>63</td>
+                <td>44.74%</td>
+                <td>31.58%</td>
+                <td>23.68%</td>
+                <td>5</td>
+                <td>3</td>
+                <td>6</td>
+                <td>19</td>
+                <td>10</td>
+                <td>7</td>
+                <td>2</td>
+                <td>37</td>
+                <td>52.63%</td>
+                <td>36.84%</td>
+                <td>10.53%</td>
+                <td>5</td>
+                <td>2</td>
+                <td>5</td>
+                <td>19</td>
+                <td>7</td>
+                <td>5</td>
+                <td>7</td>
+                <td>26</td>
+                <td>36.84%</td>
+                <td>26.32%</td>
+                <td>36.84%</td>
+                <td>4</td>
+                <td>4</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>2</td>
+                <td>Stewart Houston</td>
+                <td>Scotland</td>
+                <td>19</td>
+                <td>7</td>
+                <td>4</td>
+                <td>8</td>
+                <td>25</td>
+                <td>36.84%</td>
+                <td>21.05%</td>
+                <td>42.11%</td>
+                <td>6</td>
+                <td>6</td>
+                <td>1</td>
+                <td>9</td>
+                <td>4</td>
+                <td>3</td>
+                <td>2</td>
+                <td>15</td>
+                <td>44.44%</td>
+                <td>33.33%</td>
+                <td>22.22%</td>
+                <td>6</td>
+                <td>3</td>
+                <td>3</td>
+                <td>10</td>
+                <td>3</td>
+                <td>1</td>
+                <td>6</td>
+                <td>10</td>
+                <td>30.00%</td>
+                <td>10.00%</td>
+                <td>60.00%</td>
+                <td>8</td>
+                <td>7</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>1</td>
+                <td>George Graham</td>
+                <td>Scotland</td>
+                <td>112</td>
+                <td>41</td>
+                <td>38</td>
+                <td>33</td>
+                <td>161</td>
+                <td>36.61%</td>
+                <td>33.93%</td>
+                <td>29.46%</td>
+                <td>7</td>
+                <td>2</td>
+                <td>3</td>
+                <td>56</td>
+                <td>21</td>
+                <td>21</td>
+                <td>14</td>
+                <td>84</td>
+                <td>37.50%</td>
+                <td>37.50%</td>
+                <td>25.00%</td>
+                <td>7</td>
+                <td>1</td>
+                <td>2</td>
+                <td>56</td>
+                <td>20</td>
+                <td>17</td>
+                <td>19</td>
+                <td>77</td>
+                <td>35.71%</td>
+                <td>30.36%</td>
+                <td>33.93%</td>
+                <td>5</td>
+                <td>2</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>7</td>
+                <td>Fredrik Ljungberg</td>
+                <td>Sweden</td>
+                <td>5</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>5</td>
+                <td>20.00%</td>
+                <td>40.00%</td>
+                <td>40.00%</td>
+                <td>8</td>
+                <td>1</td>
+                <td>2</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0</td>
+                <td>2</td>
+                <td>0</td>
+                <td>0.00%</td>
+                <td>0.00%</td>
+                <td>100.00%</td>
+                <td>8</td>
+                <td>7</td>
+                <td>1</td>
+                <td>3</td>
+                <td>1</td>
+                <td>2</td>
+                <td>0</td>
+                <td>5</td>
+                <td>33.33%</td>
+                <td>66.67%</td>
+                <td>0.00%</td>
+                <td>6</td>
+                <td>1</td>
+                <td>7</td>
+            </tr>
+        </tbody>
+    </table>
+    <script src="../src/script.js"></script>
+</body>
+
+</html>

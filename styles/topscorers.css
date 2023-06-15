@@ -1,0 +1,26 @@
+table {
+  table-layout: auto;
+  width: 100%;
+  border: 1px solid;
+}
+
+th {
+  background: black;
+  position: sticky;
+  top: 0;
+}
+
+td {
+  table-layout: auto;
+  width: 1%;
+  white-space: nowrap;
+}
+
+nav,
+th,
+#ResultsTitle {
+  background: white;
+  color: black;
+  position: sticky;
+  top: 0;
+}

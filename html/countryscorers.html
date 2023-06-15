@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Country Goalscorers - Arsenal In The Premier League</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/navBar.css" />
+    <link rel="stylesheet" href="../styles/results.css" />
+  </head>
+  <body>
+    <nav>
+      <!--BBC Logo to the far left of the navbar-->
+      <a href="javascript:void(0);" id="ArsenalBadge">
+        <img src="../images/ArsenalBadge.png" alt="ArsenalBadge" />
+      </a>
+      <!--User Sign In-->
+      <a href="javascript:void(0);" id="nav-sign-in">
+        <i class="fas fa-user-circle"></i>
+        <div id="nav-sign-in-text">Sign In</div>
+        <div class="nav-line nav-blue"></div>
+      </a>
+      <!--Bell Icon-->
+      <a href="javascript:void(0);" id="nav-bell-icon">
+        <i class="fas fa-bell"></i>
+        <div class="nav-line nav-dark-blue"></div>
+      </a>
+      <!--Main Nav Here. On full width - starts with Home & ends with CBeebies-->
+      <section id="main-nav">
+        <a href="index.html" class="main-nav-entry" id="main-nav-home">
+          <div>Home</div>
+          <div class="nav-line nav-blue"></div>
+        </a>
+        <a href="results.html" class="main-nav-entry" id="main-nav-news">
+          <div>Results</div>
+          <div class="nav-line nav-red"></div>
+        </a>
+        <a href="matchscorers.html" class="main-nav-entry" id="main-nav-sport">
+          <div>Match Scorers</div>
+          <div class="nav-line nav-yellow"></div>
+        </a>
+        <a href="topscorers.html" class="main-nav-entry" id="main-nav-weather">
+          <div>Top Scorers</div>
+          <div class="nav-line nav-light-blue"></div>
+        </a>
+        <a
+          href="countryscorers.html"
+          class="main-nav-entry"
+          id="main-nav-iplayer"
+        >
+          <div>Country Scorers</div>
+          <div class="nav-line nav-pink"></div>
+        </a>
+        <a href="scorelines.html" class="main-nav-entry" id="main-nav-sounds">
+          <div>Scorelines</div>
+          <div class="nav-line nav-orange"></div>
+        </a>
+        <a href="opponents.html" class="main-nav-entry" id="main-nav-cbbc">
+          <div>Opponents</div>
+          <div class="nav-line nav-green"></div>
+        </a>
+        <a href="managers.html" class="main-nav-entry" id="main-nav-cbeebies">
+          <div>Managers</div>
+          <div class="nav-line nav-yellow"></div>
+        </a>
+        <a href="javascript:void(0);" class="main-nav-entry" id="main-nav-more">
+          <div>More</div>
+          <i class="fas fa-caret-down"></i>
+          <div class="nav-line nav-black"></div>
+        </a>
+      </section>
+      <!--Search-->
+      <a href="javascript:void(0);" id="nav-search">
+        <i class="fas fa-search"></i>
+        <div id="nav-search-text">Search</div>
+        <div class="nav-line nav-black"></div>
+      </a>
+    </nav>
+    <!--Extra drop down that opens up when user clicks on the more tab-->
+    <section id="more-nav">
+      <!--X that user clicks on to close the menu-->
+      <div id="more-nav-content">
+        <div id="cross-icon"><i class="fas fa-times"></i></div>
+        <a href="javascript:void(0);">Results</a>
+        <a href="javascript:void(0);">Match Scorers</a>
+        <a href="javascript:void(0);">Top Scorers</a>
+        <a href="javascript:void(0);">Country Scorers</a>
+        <a href="javascript:void(0);">Scorelines</a>
+        <a href="javascript:void(0);">Opponents</a>
+        <a href="javascript:void(0);">Managers</a>
+        <a href="premierleaguestats.html">Premier League Stats</a>
+        <a href="javascript:void(0);">Bitesize</a>
+        <a href="javascript:void(0);">Arts</a>
+        <a href="javascript:void(0);">Taster</a>
+        <a href="javascript:void(0);">Local</a>
+        <a href="javascript:void(0);">Own Goals</a>
+      </div>
+    </section>
+    <!--END OF NAVBAR. START OF MAIN PAGE-->
+    <div id="ArsenalTitle">
+      <div class="center-content title-text">
+        Arsenal Premier League Goalscorers, by Country 1992-2023
+      </div>
+    </div>
+    <table border="1" class="dataframe">
+      <thead>
+        <tr style="text-align: left">
+          <th>Rank</th>
+          <th>Country</th>
+          <th>Continent</th>
+          <th>Goals</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>France</td>
+          <td>Europe</td>
+          <td>552</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>England</td>
+          <td>Europe</td>
+          <td>440</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Netherlands</td>
+          <td>Europe</td>
+          <td>211</td>
+        </tr>
+        <tr>
+          <td>4</td>
+          <td>Spain</td>
+          <td>Europe</td>
+          <td>105</td>
+        </tr>
+        <tr>
+          <td>5</td>
+          <td>Brazil</td>
+          <td>South America</td>
+          <td>91</td>
+        </tr>
+        <tr>
+          <td>6</td>
+          <td>Gabon</td>
+          <td>Africa</td>
+          <td>68</td>
+        </tr>
+        <tr>
+          <td>7</td>
+          <td>Germany</td>
+          <td>Europe</td>
+          <td>67</td>
+        </tr>
+        <tr>
+          <td>8</td>
+          <td>Chile</td>
+          <td>South America</td>
+          <td>60</td>
+        </tr>
+        <tr>
+          <td>9</td>
+          <td>Wales</td>
+          <td>Europe</td>
+          <td>54</td>
+        </tr>
+        <tr>
+          <td>10</td>
+          <td>Sweden</td>
+          <td>Europe</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>11</td>
+          <td>Togo</td>
+          <td>Africa</td>
+          <td>46</td>
+        </tr>
+        <tr>
+          <td>12</td>
+          <td>Nigeria</td>
+          <td>Africa</td>
+          <td>41</td>
+        </tr>
+        <tr>
+          <td>13</td>
+          <td>Ivory Coast</td>
+          <td>Africa</td>
+          <td>39</td>
+        </tr>
+        <tr>
+          <td>14</td>
+          <td>Denmark</td>
+          <td>Europe</td>
+          <td>25</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Russia</td>
+          <td>Europe</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>15</td>
+          <td>Norway</td>
+          <td>Europe</td>
+          <td>23</td>
+        </tr>
+        <tr>
+          <td>17</td>
+          <td>Switzerland</td>
+          <td>Europe</td>
+          <td>22</td>
+        </tr>
+        <tr>
+          <td>18</td>
+          <td>Czechia</td>
+          <td>Europe</td>
+          <td>19</td>
+        </tr>
+        <tr>
+          <td>19</td>
+          <td>Croatia</td>
+          <td>Europe</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Belgium</td>
+          <td>Europe</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>20</td>
+          <td>Cameroon</td>
+          <td>Africa</td>
+          <td>14</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>Armenia</td>
+          <td>Europe</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>22</td>
+          <td>Morocco</td>
+          <td>Africa</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>Belarus</td>
+          <td>Europe</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>24</td>
+          <td>Scotland</td>
+          <td>Europe</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>26</td>
+          <td>Ghana</td>
+          <td>Africa</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>Israel</td>
+          <td>Europe</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>27</td>
+          <td>Portugal</td>
+          <td>Europe</td>
+          <td>4</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Costa Rica</td>
+          <td>North America</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Greece</td>
+          <td>Europe</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Liberia</td>
+          <td>Africa</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Mexico</td>
+          <td>North America</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>29</td>
+          <td>Uruguay</td>
+          <td>South America</td>
+          <td>3</td>
+        </tr>
+        <tr>
+          <td>34</td>
+          <td>Bosnia-Herzegovina</td>
+          <td>Europe</td>
+          <td>2</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Egypt</td>
+          <td>Africa</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Northern Ireland</td>
+          <td>Europe</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Trinidad &amp; Tobago</td>
+          <td>North America</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Ukraine</td>
+          <td>Europe</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>35</td>
+          <td>Poland</td>
+          <td>Europe</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+    <script src="../src/script.js"></script>
+  </body>
+</html>
