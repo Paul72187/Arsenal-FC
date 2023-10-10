@@ -36,3 +36,6 @@ df = pd.read_csv('ArsenalPremierLeaguePointsDistribution.csv')
 
 df.to_html('pointsdistribution.html',index=False)
 
+df = pd.read_csv('ArsenalPremierLeagueOwnGoals.csv')
+
+df.to_html('owngoals.html',index=False)
