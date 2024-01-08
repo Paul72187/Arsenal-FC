@@ -1,1 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paul Shaw - Arsenal In The Premier League</title>
+    <link rel="stylesheet" href="../styles/style.css" />
+    <link rel="stylesheet" href="../styles/navBar.css" />
+    <link rel="stylesheet" href="../styles/results.css" />
+</head>
+
+<body>
+    <nav>
+        <!--Arsenal Badge to the far left of the navbar-->
+        <a href="javascript:void(0);" id="ArsenalBadge">
+            <img src="../images/ArsenalBadge.png" alt="ArsenalBadge" />
+        </a>
+        <!--User Sign In-->
+        <a href="javascript:void(0);" id="nav-sign-in">
+            <i class="fas fa-user-circle"></i>
+            <div id="nav-sign-in-text">Sign In</div>
+            <div class="nav-line nav-blue"></div>
+        </a>
+        <!--Bell Icon-->
+        <a href="javascript:void(0);" id="nav-bell-icon">
+            <i class="fas fa-bell"></i>
+            <div class="nav-line nav-dark-blue"></div>
+        </a>
+        <!--Main Nav Here. On full width.-->
+        <section id="main-nav">
+            <a href="index.html" class="main-nav-entry" id="main-nav-home">
+                <div>Home</div>
+                <div class="nav-line nav-blue"></div>
+            </a>
+            <a href="results.html" class="main-nav-entry" id="main-nav-news">
+                <div>Results</div>
+                <div class="nav-line nav-red"></div>
+            </a>
+            <a href="matchscorers.html" class="main-nav-entry" id="main-nav-sport">
+                <div>Match Scorers</div>
+                <div class="nav-line nav-yellow"></div>
+            </a>
+            <a href="topscorers.html" class="main-nav-entry" id="main-nav-weather">
+                <div>Top Scorers</div>
+                <div class="nav-line nav-light-blue"></div>
+            </a>
+            <a href="countryscorers.html" class="main-nav-entry" id="main-nav-iplayer">
+                <div>Country Scorers</div>
+                <div class="nav-line nav-pink"></div>
+            </a>
+            <a href="scorelines.html" class="main-nav-entry" id="main-nav-sounds">
+                <div>Scorelines</div>
+                <div class="nav-line nav-orange"></div>
+            </a>
+            <a href="opponents.html" class="main-nav-entry" id="main-nav-cbbc">
+                <div>Opponents</div>
+                <div class="nav-line nav-green"></div>
+            </a>
+            <a href="managers.html" class="main-nav-entry" id="main-nav-cbeebies">
+                <div>Managers</div>
+                <div class="nav-line nav-yellow"></div>
+            </a>
+            <a href="javascript:void(0);" class="main-nav-entry" id="main-nav-more">
+                <div>More</div>
+                <i class="fas fa-caret-down"></i>
+                <div class="nav-line nav-black"></div>
+            </a>
+        </section>
+        <!--Search-->
+        <a href="javascript:void(0);" id="nav-search">
+            <i class="fas fa-search"></i>
+            <div id="nav-search-text">Search</div>
+            <div class="nav-line nav-black"></div>
+        </a>
+    </nav>
+    <!--Extra drop down that opens up when user clicks on the more tab-->
+    <section id="more-nav">
+        <!--X that user clicks on to close the menu-->
+        <div id="more-nav-content">
+            <div id="cross-icon"><i class="fas fa-times"></i></div>
+            <a href="results.html">Results</a>
+            <a href="matchscorers.html">Match Scorers</a>
+            <a href="topscorers.html">Top Scorers</a>
+            <a href="countryscorers.html">Country Scorers</a>
+            <a href="scorelines.html">Scorelines</a>
+            <a href="opponents.html">Opponents</a>
+            <a href="managers.html">Managers</a>
+            <a href="premierleaguestats.html">Premier League Stats</a>
+            <a href="day.html">Day</a>
+            <a href="date.html">Date</a>
+            <a href="month.html">Month</a>
+            <a href="year.html">Year</a>
+            <a href="kickofftime.html;">KickOffTime</a>
+            <a href="owngoals.html">Own Goals</a>
+        </div>
+    </section>
+    <!--END OF NAVBAR. START OF MAIN PAGE-->
+    <div id="ResultsTitle">
+        <div class="center-content title-text">
+            Paul Shaw Goals 1992-2023
+        </div>
+    </div>
+    <table border="1" class="dataframe">
+        <thead>
+            <tr style="text-align: left">
+                <th>Goal ID</th>
+                <th>Player ID</th>
+                <th>Player</th>
+                <th>Position</th>
+                <th>Country</th>
+                <th>Continent</th>
+                <th>Goal Time</th>
+                <th>Penalty</th>
+                <th>Brace</th>
+                <th>Hattrick</th>
+                <th>Haul</th>
+                <th>Own Goal</th>
+                <th>Premier League Match ID</th>
+                <th>Manager</th>
+                <th>Season</th>
+                <th>Match ID</th>
+                <th>Time</th>
+                <th>Day</th>
+                <th>Date</th>
+                <th>Month</th>
+                <th>Year</th>
+                <th>Home Or Away</th>
+                <th>Venue</th>
+                <th>Arsenal</th>
+                <th>Arsenal Score</th>
+                <th>Opposition Score</th>
+                <th>Opposition</th>
+                <th>Outcome</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>32</td>
+                <td>11</td>
+                <td><a href="PaulShaw.html" style="color: white" ;>Paul Shaw</td>
+                <td>Midfielder</td>
+                <td>England</td>
+                <td>Europe</td>
+                <td>20</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>32</td>
+                <td>George Graham</td>
+                <td>1992/1993</td>
+                <td>32</td>
+                <td>15:00</td>
+                <td>Saturday</td>
+                <td>20</td>
+                <td>March</td>
+                <td>1993</td>
+                <td>Home</td>
+                <td>Highbury</td>
+                <td>Arsenal</td>
+                <td>4</td>
+                <td>3</td>
+                <td>Southampton</td>
+                <td>Win</td>
+            </tr>
+            <tr>
+                <td>33</td>
+                <td>11</td>
+                <td><a href="PaulShaw.html" style="color: white" ;>Paul Shaw</td>
+                <td>Midfielder</td>
+                <td>England</td>
+                <td>Europe</td>
+                <td>79</td>
+                <td>0</td>
+                <td>1</td>
+                <td>0</td>
+                <td>0</td>
+                <td>0</td>
+                <td>32</td>
+                <td>George Graham</td>
+                <td>1992/1993</td>
+                <td>32</td>
+                <td>15:00</td>
+                <td>Saturday</td>
+                <td>20</td>
+                <td>March</td>
+                <td>1993</td>
+                <td>Home</td>
+                <td>Highbury</td>
+                <td>Arsenal</td>
+                <td>4</td>
+                <td>3</td>
+                <td>Southampton</td>
+                <td>Win</td>
+            </tr>
+      </tbody>
+    </table>
+    <script src="../src/script.js"></script>
+  </body>
+</html>
